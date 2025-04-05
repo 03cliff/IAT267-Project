@@ -249,11 +249,11 @@ void ifWin() {
         println("case: playmode");
         // Checking Color
         println("color: " +Integer.parseInt(r[0])+ ", " +Integer.parseInt(g[0])+ ", " +Integer.parseInt(b[0]));
-          if ((Integer.parseInt(r[0]) < gameR + int && Integer.parseInt(r[0]) > gameR - int) &&
-              (Integer.parseInt(g[0]) < gameG + int && Integer.parseInt(g[0]) > gameG - int) &&
-              (Integer.parseInt(b[0]) < gameB + int && Integer.parseInt(b[0]) > gameB - int) ) { 
-              s += 3; 
-          } else {s+=1;}
+        //  if ((Integer.parseInt(r[0]) < gameR + int && Integer.parseInt(r[0]) > gameR - int) &&
+        //      (Integer.parseInt(g[0]) < gameG + int && Integer.parseInt(g[0]) > gameG - int) &&
+        //      (Integer.parseInt(b[0]) < gameB + int && Integer.parseInt(b[0]) > gameB - int) ) { 
+        //      s += 3; 
+        //  } else {s+=1;}
         println("weight: " + w[0]);
           // Check info received about fish
           if (Integer.parseInt(w[0]) >= weightL && Integer.parseInt(w[0]) < weightM) 
